@@ -1,3 +1,4 @@
+# Individual task that has a description of the task
 class Task < ActiveRecord::Base
   belongs_to :task_list
   belongs_to :user
